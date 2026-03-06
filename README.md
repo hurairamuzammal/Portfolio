@@ -14,20 +14,27 @@ As you scroll through the application, you journey straight through a literal "t
 * **Intelligent Spotlight Tracking:** A global spotlight effect that gently illuminate the dark-mode layout by tracking pure cursor coordinates over the background.
 * **Component-Level Optimizations:** Designed with pure functional React components. Heavy SVGs are pulled from `react-icons` and `lucide-react`, lazy-rendered only when inside the viewport.
 
-## Running Locally
+## Running and Building Locally
 
 To run this project on your local machine:
 
 1. Clone the repository and navigate into the root directory.
-2. Install the necessary dependencies:
+2. Install the necessary dependencies (this will install React, Vite, Tailwind, etc.):
    ```bash
    npm install
    ```
-3. Start the Vite development development server:
+3. Start the Vite development development server to view the app locally:
    ```bash
    npm run dev
    ```
 4. Open your browser and navigate to the localhost port provided in your terminal (usually `http://localhost:5173`).
+
+**To build the application for production:**
+1. Once your dependencies are installed, run:
+   ```bash
+   npm run build
+   ```
+2. The output will be inside the `dist` folder, which you can publish to any static hosting provider.
 
 ## Tools & Libraries Used
 - **Vite** (Build Tool)
